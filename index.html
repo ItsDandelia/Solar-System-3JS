@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Three.js</title>
+	<title>StackTower</title>
 	<style>
         body {
             overflow: hidden;
             margin: 0px;
         }
+        #info {
+            position: absolute;
+            top: 10px;
+            width: 100%;
+            text-align: center;
+            color: white;
+            font-size: 35px;
+            z-index: 100;
+            display:none;
+        }
     </style>
 </head>
 
 <body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
-    <script type="module" src="Solar.js"></script>
+    <div id="info">PLANETARY SYSTEM</div>
+    <script type="module" src="Solar-trimmed.js"></script>
     
 </body>
 
